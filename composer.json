@@ -1,0 +1,43 @@
+{
+    "name": "juanparati/copyscape",
+    "description": "Copyscape interface for Laravel 5.5+",
+    "type": "library",
+    "keywords": [
+        "copyscape",
+        "laravel",
+        "plagiarism",
+        "duplicate",
+        "seo"
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-simplexml": "*",
+        "guzzlehttp/guzzle": "~6.3.3",
+        "illuminate/support": "~5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juanparati\\Copyscape\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Juanparati\\Copyscape\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Juanparati\\Copyscape\\CopyscapeServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Lago",
+            "email": "juanparati@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
