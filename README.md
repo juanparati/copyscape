@@ -59,6 +59,24 @@ Optionally add the following Alias in your config/app.php (Aliases section):
          
          $results = $search->request();
          
+
+### Search types
+
+It's possible to change the possible search type using the "setSearchType" method:
+
+        Copyscape::searchText('Hello Universe')
+            ->setSearchType(\Juanparati\Copyscape\Services\SearchService::SEARCH_TYPE_PRIVATE)
+            ->request();
+            
+The following search types are available:
+
+        \Juanparati\Copyscape\Services\SearchService::SEARCH_TYPE_PUBLIC    // Search against public index
+        \Juanparati\Copyscape\Services\SearchService::SEARCH_TYPE_PRIVATE   // Search against private index
+        \Juanparati\Copyscape\Services\SearchService::SEARCH_TYPE_BOTH      // Search against public and private indexes   
+        
+
+               
+         
          
 ### Add index from URL
 

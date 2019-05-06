@@ -65,6 +65,20 @@ abstract class SearchService extends Service implements ServiceContract
 
 
     /**
+     * Set the search type.
+     *
+     * @param string $search_type
+     * @return SearchService
+     */
+    public function setSearchType(string $search_type = self::SEARCH_TYPE_PUBLIC)
+    {
+        $this->params['o'] = $search_type;
+
+        return $this;
+    }
+
+
+    /**
      * Set full comparison.
      *
      * @param int $full_comparison
