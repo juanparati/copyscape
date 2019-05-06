@@ -196,6 +196,6 @@ abstract class SearchService extends Service implements ServiceContract
             throw new SearchException($xml->error);
         }
 
-        return (array) $xml;
+        return  json_decode(json_encode((array) $xml),true);
     }
 }

@@ -12,6 +12,7 @@
     "require": {
         "php": ">=7.1.0",
         "ext-simplexml": "*",
+        "ext-json": "*",
         "guzzlehttp/guzzle": "~6.3.3",
         "illuminate/support": "~5.4"
     },
