@@ -7,6 +7,12 @@ A Laravel package that provides a [Copyscape](https://copyscape.com) interface f
 
 ## Installation
 
+For Laravel 5.5 to 5.8:
+
+        composer require juanparati/copyscape "^1.0"
+
+For Laravel 6.x:
+    
         composer require juanparati/copyscape
 
 For Laravel 5.5 it is required to register the service provider into the "config/app.php":
