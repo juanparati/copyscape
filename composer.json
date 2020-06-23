@@ -1,6 +1,6 @@
 {
     "name": "juanparati/copyscape",
-    "description": "Copyscape interface for Laravel 6",
+    "description": "Copyscape interface for Laravel",
     "type": "library",
     "keywords": [
         "copyscape",
@@ -14,7 +14,7 @@
         "ext-simplexml": "*",
         "ext-json": "*",
         "guzzlehttp/guzzle": "~6.3",
-        "illuminate/support": "~6.0"
+        "illuminate/support": "~6.0|~7.0"
     },
     "autoload": {
         "psr-4": {

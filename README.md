@@ -11,7 +11,7 @@ For Laravel 5.5 to 5.8:
 
         composer require juanparati/copyscape "^1.0"
 
-For Laravel 6.x:
+For Laravel 6.x/7.x:
     
         composer require juanparati/copyscape
 
