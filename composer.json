@@ -10,11 +10,11 @@
         "seo"
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.3",
         "ext-simplexml": "*",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "~6.3",
-        "illuminate/support": "~6.0|~7.0"
+        "guzzlehttp/guzzle": "~7.0",
+        "illuminate/support": "~8.0"
     },
     "autoload": {
         "psr-4": {
