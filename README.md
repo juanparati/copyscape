@@ -7,6 +7,11 @@ A Laravel package that provides a [Copyscape](https://copyscape.com) interface f
 
 ## Installation
 
+For Laravel 9.x:
+
+        composer require juanparati/copyscape "~4.0"
+        
+
 For Laravel 8.x:
 
         composer require juanparati/copyscape "~3.0"
