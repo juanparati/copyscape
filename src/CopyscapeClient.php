@@ -48,8 +48,9 @@ class CopyscapeClient
         $this->config = $config;
 
         $this->client = new Client([
-            'base_uri' => $this->config['url'],
-            'timeout'  => $this->config['timeout']
+            'base_uri'    => $this->config['url'],
+            'timeout'     => $this->config['timeout'],
+            'http_errors' => false,
         ]);
     }
 
